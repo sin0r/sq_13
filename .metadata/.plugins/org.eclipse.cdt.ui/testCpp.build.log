@@ -1,4 +1,4 @@
-12:34:21 **** Auto Build of configuration Debug for project testCpp ****
+14:27:35 **** Build of configuration Debug for project testCpp ****
 make all 
 Building file: ../main.cpp
 Invoking: Cygwin C++ Compiler
@@ -7,17 +7,17 @@ In file included from /usr/include/sys/reent.h:14:0,
                  from /usr/include/wchar.h:6,
                  from /usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/c++/cwchar:44,
                  from /usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/c++/bits/postypes.h:40,
-subdir.mk:18: recipe for target 'main.o' failed
                  from /usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/c++/iosfwd:40,
                  from /usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/c++/ios:38,
                  from /usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/c++/ostream:38,
                  from /usr/lib/gcc/x86_64-pc-cygwin/4.8.1/include/c++/iostream:39,
                  from ../main.cpp:9:
 /usr/include/sys/_types.h:72:20: fatal error: stddef.h: No such file or directory
+subdir.mk:18: recipe for target 'main.o' failed
  #include <stddef.h>
                     ^
 compilation terminated.
 make: *** [main.o] Error 1
 
-12:34:22 Build Finished (took 218ms)
+14:27:38 Build Finished (took 2s.470ms)
 
